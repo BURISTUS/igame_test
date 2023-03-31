@@ -1,0 +1,54 @@
+
+# POST http://localhost:3000/auth/refresh
+# Content-Type: application/json
+# {
+#     "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZW1haWwiOiJ0ZXN0MUB0ZXN0LmNvbSIsImlhdCI6MTY3OTMyMzI5MiwiZXhwIjoxNjc5MzQ0ODkyfQ.2HAwoI5_JW98lMbUeOJnpovFK86qv0bEwxc6_5CPbSs"
+# }
+
+
+# POST http://localhost:3000/auth/register
+# Content-Type: application/json
+# {
+#     "email": "test@gmail.com",
+#     "hash": "test1"
+# }
+
+
+# POST http://localhost:3000/auth/login
+# Content-Type: application/json
+# {
+#     "email": "klindzhev1@gmail.com",
+#     "password": "test1"
+# }
+
+
+# GET http://localhost:3000/user/get-self
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI1NDY1OSwiZXhwIjoxNjgwMjU4MjU5fQ.rNvd4Qevp4-8a7sT5zSmOfhUMuYtTb3ZLAew5XXAJ6A
+
+# GET http://localhost:3000/wallet/get-balance
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI1NDY1OSwiZXhwIjoxNjgwMjU4MjU5fQ.rNvd4Qevp4-8a7sT5zSmOfhUMuYtTb3ZLAew5XXAJ6A
+# POST http://localhost:3000/game/start-game
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI1NDY1OSwiZXhwIjoxNjgwMjU4MjU5fQ.rNvd4Qevp4-8a7sT5zSmOfhUMuYtTb3ZLAew5XXAJ6A
+# {
+#     "amount": 100
+# }
+
+# GET http://localhost:3000/game/get-last-game
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI1NDY1OSwiZXhwIjoxNjgwMjU4MjU5fQ.rNvd4Qevp4-8a7sT5zSmOfhUMuYtTb3ZLAew5XXAJ6A
+
+# GET http://localhost:3000/game/get-all-games
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI1NDY1OSwiZXhwIjoxNjgwMjU4MjU5fQ.rNvd4Qevp4-8a7sT5zSmOfhUMuYtTb3ZLAew5XXAJ6A
+
+
+PATCH http://localhost:3000/user/edit
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTY4MDI1NDY1OSwiZXhwIjoxNjgwMjU4MjU5fQ.rNvd4Qevp4-8a7sT5zSmOfhUMuYtTb3ZLAew5XXAJ6A
+{
+    "firstName": "karl",
+    "lastName": "kara"
+}
