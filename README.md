@@ -34,6 +34,14 @@ $ yarn install
 
 ## Running the app
 
+```
+$ docker compose up -d
+```
+
+```
+$ npx prisma init
+```
+
 ```bash
 # development
 $ yarn run start
@@ -64,9 +72,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+-   Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+-   Website - [https://nestjs.com](https://nestjs.com/)
+-   Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
